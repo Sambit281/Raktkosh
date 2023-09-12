@@ -1,0 +1,343 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.float {
+  position: fixed;
+  bottom: 8%;
+  right: 18px;
+  text-align: cen;
+  color: #ffffff;
+}
+.Rfloat {
+  width: 50px;
+  height: 50px;
+  /* background: url(image/call.png); */
+  background-image: url(image/book-call.png);
+  color: #ffffff;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-color: #00778b;
+  background-size: 24px;
+  background-position: center;
+  float: right;
+  margin: 0 auto;
+  cursor: pointer;
+  /* box-shadow: 0 -2px 3px -1px #00778b; */
+}
+/* nav {
+  margin-top: 0%;
+  position: sticky;
+  top: 0;
+  background-color: aqua;
+  color: red;
+} */
+
+/* nav bar all class and id */
+.navbar {
+  position: fixed;
+  top: 0;
+  /* background-color: rgba(6, 6, 73, 0.166); */
+  background-image: linear-gradient(to right, blue, white, red);
+  width: 100vw;
+}
+#lodbot {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: azure;
+}
+#hname {
+  font-weight: bold;
+  font-size: larger;
+  color: red;
+  text-shadow: 1px 1px 1px rgb(38, 0, 255), 4px 4px 4px blueviolet,
+    3px 3px 1px white;
+}
+.login {
+  border: 1px solid rgb(255, 4, 4);
+  border-radius: 8px;
+  padding: 3px 10px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.51);
+}
+
+/* TMcontaner top meddile all contaner class id  */
+.TMcontaner {
+  width: 100vw;
+  /* height: auto; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  text-align: center;
+  /* background-image: url(image/backimg.jpg); */
+  background-color: rgb(226, 226, 226);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+#infocordA {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 1.5rem;
+  box-shadow: 0px 5px 5px black;
+
+  /* transition: transform 3s cubic-bezier(0, 1.47, 0, 1.68) 1s; */
+}
+/* #infocordA:hover {
+  transform: translatey(101px);
+} */
+
+#infocordB {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 1.5rem;
+  box-shadow: 0px 5px 5px black;
+}
+.DRN {
+  font-size: medium;
+  color: black;
+  margin: 5px;
+  overflow: hidden;
+}
+.card-tm {
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify;
+}
+
+/* Mcontaner meddile contaner all id and class */
+.Mcontaner {
+  width: 100vw;
+  /* height: 25vh; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  /* background-image: url(image/backimg.jpg); */
+  background-color: rgb(226, 226, 226);
+}
+#infocord1 {
+  background-color: rgb(134, 0, 0);
+  border-radius: 15px;
+  margin: 1rem;
+  box-shadow: 10px 5px 5px rgb(55, 54, 54);
+}
+#infocord2 {
+  background-color: rgb(40, 37, 244);
+  border-radius: 15px;
+  margin: 1rem;
+  box-shadow: 10px 5px 5px rgb(55, 54, 54);
+}
+#infocord3 {
+  background-color: rgb(255, 138, 5);
+  border-radius: 15px;
+  margin: 1rem;
+  box-shadow: 10px 5px 5px rgb(55, 54, 54);
+}
+#infocord4 {
+  background-color: rgb(216, 0, 0);
+  border-radius: 15px;
+  margin: 1rem;
+  box-shadow: 10px 5px 5px rgb(55, 54, 54);
+}
+#infocord5 {
+  background-color: rgb(16, 96, 0);
+  border-radius: 15px;
+  margin: 1rem;
+  box-shadow: 10px 5px 5px rgb(55, 54, 54);
+}
+#mlogo {
+  color: white;
+  font-size: larger;
+}
+.card-m {
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  text-align: justify;
+}
+
+/* TLcontaner top lower all class and id */
+.TLcontaner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  gap: 10px;
+  text-align: center;
+}
+#LTleft {
+  width: 45vw;
+  display: flex;
+}
+#LTright {
+  width: 45vw;
+}
+.image {
+  width: 300vw;
+  height: 10vh;
+  background-color: brown;
+}
+.LTT {
+  background-image: url(image/ban2.png);
+  background-size: 45vw;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+}
+.LTB {
+  background-color: rgb(255, 255, 255);
+  width: 50vw;
+  height: 20vh;
+  text-align: center;
+}
+
+/* contaner - hospital contaner all id and class */
+.contaner {
+  width: 100vw;
+  /* height: 100vh; */
+  border: 1px solid black;
+  display: flex;
+  margin-top: 80px;
+}
+
+.leftCont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+}
+#Cbox {
+  box-shadow: inset 0 -3em 3em rgba(255, 38, 38, 0.1),
+    10px 5px 5px 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+/* not found still now */
+
+.footer {
+  background-color: rgb(6, 6, 73);
+}
+#footerHtext {
+  color: rgb(153, 153, 153);
+}
+#footertext {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#fsub {
+  width: 20vw;
+  height: 4vh;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid blue;
+}
+/* .ffrom {
+  display: flex;
+} */
+.fdivf {
+  display: flex;
+}
+
+.Tcontaner {
+  margin-top: 65px;
+  width: 100%;
+  height: 30vh;
+  background-image: url(image/POSTER1\ copy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  text-align: center;
+  color: red;
+}
+@media (max-width: 570px) {
+  .TMcontaner {
+    height: 20vh;
+  }
+  #LTright {
+    width: 100vw;
+  }
+  #LTleft {
+    width: 100vw;
+  }
+  .LTT {
+    width: 100vw;
+    height: 30vh;
+    background-size: 100vw;
+  }
+  .LTB {
+    width: 100vw;
+  }
+  .Tcontaner {
+    background-image: url(image/POSTER2\ copy.jpg);
+    background-size: 100vw;
+    height: 19vh;
+  }
+  /* #profile {
+    justify-content: space-evenly;
+  } */
+  /* #Ccard {
+    margin-right: 5px;
+  } */
+}
+
+.flogo {
+  width: 200px;
+  height: 200px;
+  color: #ffffff;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.flogoul {
+  display: flex;
+}
+
+.fldiv {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.734);
+  color: white;
+}
+
+/* ---------------------- */
+#profile {
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #c8e8e9;
+}
+
+#profi {
+  width: 20vw;
+  height: 30vh;
+}
+/* #Ccard {
+} */
